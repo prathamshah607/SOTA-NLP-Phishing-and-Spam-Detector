@@ -1,0 +1,1564 @@
+{
+    "mcqs": [
+        {
+            "question": "Your bank sends you an SMS with a shortened URL (bit.ly/verifySBI) claiming you must verify a transaction. What is a prudent step before clicking such a link?",
+            "options": [
+                "Click immediately since it’s from your bank",
+                "Expand the shortened URL using a preview service to check the real domain",
+                "Reply to the SMS asking for more details",
+                "Ignore SMS and hope no issues arise"
+            ],
+            "answer": "Expand the shortened URL using a preview service to check the real domain",
+            "difficulty": "Medium",
+            "description": "Shortened URLs can mask malicious domains. Preview links before clicking."
+        },
+        {
+            "question": "An email arrives with your exact password in the body, threatening to expose your browsing history unless you pay ransom. You know you changed your password recently. What type of scam is this, and how should you respond?",
+            "options": [
+                "It’s a ransomware attack; pay the ransom immediately",
+                "It’s a scareware phishing email; change your password again and enable 2FA",
+                "It’s a legitimate security alert; contact support",
+                "It’s a promotional message; unsubscribe from the mailing list"
+            ],
+            "answer": "It’s a scareware phishing email; change your password again and enable 2FA",
+            "difficulty": "Medium",
+            "description": "Scareware emails use fear tactics with leaked credentials. Secure your account and ignore threats."
+        },
+        {
+            "question": "You attempt to log into a corporate VPN at home. A pop-up appears requesting your network credentials, but the URL in the pop-up reads vpn-login-update.com. What indicates this is likely a phishing attempt?",
+            "options": [
+                "The pop-up appears outside your VPN client",
+                "The domain does not match your corporate VPN domain",
+                "Your browser warns about mixed content",
+                "It uses HTTPS"
+            ],
+            "answer": "The domain does not match your corporate VPN domain",
+            "difficulty": "Medium",
+            "description": "Always verify login domains for corporate services; mismatches suggest credential harvesting."
+        },
+        {
+            "question": "A phishing site imitates the Paytm login page perfectly. Which preventative measure would stop your browser from auto-filling your credentials on this fake page?",
+            "options": [
+                "Enable browser’s anti-phishing blacklist",
+                "Use a password manager that matches exact domain names before auto-fill",
+                "Disable JavaScript on all websites",
+                "Always use incognito mode"
+            ],
+            "answer": "Use a password manager that matches exact domain names before auto-fill",
+            "difficulty": "Medium",
+            "description": "Password managers only auto-fill for saved, exact-match domains, preventing credential theft."
+        },
+        {
+            "question": "Your colleague receives an email claiming to be from the head of HR, asking them to transfer funds to a vendor urgently. The email address is hr@companys-payroll.com. How can your colleague verify legitimacy before transferring any money?",
+            "options": [
+                "Transfer immediately to avoid delay",
+                "Reply asking for official purchase order number",
+                "Call or message the head of HR using known internal contact details",
+                "Click the email’s verification link"
+            ],
+            "answer": "Call or message the head of HR using known internal contact details",
+            "difficulty": "Medium",
+            "description": "Verify financial requests through direct, trusted channels rather than email alone."
+        },
+        {
+            "question": "You notice a new browser extension promising to block all phishing sites, but the developer’s website is extensionsecurefree.xyz. What risk does this pose, and what should you do?",
+            "options": [
+                "Install it since it promises security",
+                "Check for reviews and official store listing; if suspicious, avoid installation",
+                "Ignore browser warnings about unknown sources",
+                "Share with friends for their opinion"
+            ],
+            "answer": "Check for reviews and official store listing; if suspicious, avoid installation",
+            "difficulty": "Medium",
+            "description": "Malicious extensions can inject phishing scripts. Always install from trusted stores with good reviews."
+        },
+        {
+            "question": "An SMS purports to be from India Post offering a COD delivery due to failed payment and provides a link codverify.post.in.com. What red flags indicate this may be phishing, and how should you proceed?",
+            "options": [
+                "Link looks official with .in.com; click to resolve payment",
+                "The domain is wrong (.in.com); go to the official India Post website for tracking",
+                "Reply ‘PAY’ to arrange COD payment",
+                "Ignore; COD deliveries require no action"
+            ],
+            "answer": "The domain is wrong (.in.com); go to the official India Post website for tracking",
+            "difficulty": "Medium",
+            "description": "Phishing domains often append country codes incorrectly. Always navigate to official domains manually."
+        },
+        {
+            "question": "A friend’s Facebook account posts a message claiming they got you a gift card and asking you to click an external link. Before clicking, what should you consider to confirm if the post is genuine?",
+            "options": [
+                "Check if the link uses HTTPS",
+                "Ask your friend directly via a separate channel if they actually posted it",
+                "Click quickly to thank them",
+                "Share the post on your timeline"
+            ],
+            "answer": "Ask your friend directly via a separate channel if they actually posted it",
+            "difficulty": "Medium",
+            "description": "Confirming through another channel helps detect if a social media account was compromised."
+        },
+        {
+            "question": "Your e-commerce site login page is protected by SSL, but you get an unexpected certificate error when accessing it. What should you do?",
+            "options": [
+                "Proceed anyway since SSL is usually fine",
+                "Close the page and notify your IT/security team",
+                "Ignore and clear browser cache",
+                "Install the certificate manually"
+            ],
+            "answer": "Close the page and notify your IT/security team",
+            "difficulty": "Hard",
+            "description": "Certificate errors can indicate man-in-the-middle attacks. Alert security if errors persist."
+        },
+        {
+            "question": "You’re asked to sign a PDF contract via an online service. The service sends a request to update your Adobe Reader plugin from adobeflashupdate.com. What is suspicious here, and what should you do?",
+            "options": [
+                "Acrobat plugin updates are common; install plugin",
+                "Adobe Reader updates come from adobe.com, not third-party domains; decline and verify source",
+                "Run the plugin to see if it works",
+                "Share plugin link with legal team"
+            ],
+            "answer": "Adobe Reader updates come from adobe.com, not third-party domains; decline and verify source",
+            "difficulty": "Hard",
+            "description": "Legitimate software updates come from official vendor domains only."
+        },
+        {
+            "question": "After a phishing attempt, a victim reports that their Windows 10 machine is behaving oddly. Aside from changing passwords, what advanced step should they take to ensure no backdoors remain?",
+            "options": [
+                "Reinstall the OS from a trusted source and restore data from backup",
+                "Run disk cleanup utility",
+                "Disable firewall for performance",
+                "Clear the Recycle Bin"
+            ],
+            "answer": "Reinstall the OS from a trusted source and restore data from backup",
+            "difficulty": "Hard",
+            "description": "Full OS reinstall ensures eradication of sophisticated malware or backdoors."
+        },
+        {
+            "question": "Your company’s email system supports DMARC. You find DMARC reports showing a high volume of spoofed emails. What action can the security team take in the DMARC record to reduce phishing?",
+            "options": [
+                "Set DMARC policy to p=none",
+                "Set DMARC policy to p=quarantine or p=reject",
+                "Disable SPF checks",
+                "Allow all subdomains automatically"
+            ],
+            "answer": "Set DMARC policy to p=quarantine or p=reject",
+            "difficulty": "Hard",
+            "description": "Quarantine or reject policies instruct receivers to handle unauthenticated emails properly."
+        },
+        {
+            "question": "While checking your email one morning, you notice a message claiming to be from your bank’s fraud detection team. The email address is support@sb1.co.in instead of the legitimate support@sbi.co.in and urges you to click a link immediately to prevent account suspension. What is the most secure way to handle this message?",
+            "options": [
+                "Click the provided link and log in to secure your account immediately",
+                "Ignore the message, delete it permanently, and do not follow any links",
+                "Reply to the sender asking for more information about the account suspension",
+                "Forward the email to a family member to see if they also received it"
+            ],
+            "answer": "Ignore the message, delete it permanently, and do not follow any links",
+            "difficulty": "Easy",
+            "description": "Phishers often use look-alike domains to create urgency. Deleting the email without clicking protects you from credential theft."
+        },
+        {
+            "question": "You decide to pay your electricity bill online. Instead of typing the URL manually or using a saved bookmark, you search for “electricity bill payment” on Google and click the first sponsored link. What potential risk does this browsing habit introduce?",
+            "options": [
+                "You might click on a phishing advertisement that mimics the real payment portal",
+                "The official website will always be the first sponsored link",
+                "Sponsored links are guaranteed safe and faster",
+                "Search engines filter out malicious ads automatically"
+            ],
+            "answer": "You might click on a phishing advertisement that mimics the real payment portal",
+            "difficulty": "Easy",
+            "description": "Always use bookmarked or manually entered URLs for financial transactions to avoid typosquatting or malicious ads."
+        },
+        {
+            "question": "Your cousin sends you a WhatsApp message forwarding a link that promises a free smartphone if you complete a survey. The link takes you to a form asking for your Aadhaar number and bank details. What should you do to protect your personal information?",
+            "options": [
+                "Fill out the survey quickly to claim the free smartphone reward",
+                "Ignore and delete the message, then block the sender",
+                "Share the link with other friends to get more entries",
+                "Download and install the app from that link for better experience"
+            ],
+            "answer": "Ignore and delete the message, then block the sender",
+            "difficulty": "Easy",
+            "description": "Legitimate promotions never ask for sensitive personal or financial data via messaging apps."
+        },
+        {
+            "question": "An attachment in an email from an unknown sender is named “invoice_for_payment.pdf.exe.” Before even downloading, what red flag should alert you that this file is malicious, and what action should you take?",
+            "options": [
+                "The double extension suggests it’s an executable disguised as a PDF; delete the email immediately",
+                "The file name indicates it’s a valid PDF invoice; open it to verify the amount",
+                "“.exe” files can run on mobile devices safely; save and scan it later",
+                "Rename it to .pdf and send it to your accountant"
+            ],
+            "answer": "The double extension suggests it’s an executable disguised as a PDF; delete the email immediately",
+            "difficulty": "Easy",
+            "description": "Files with names like .pdf.exe are common malware carriers. Never open or download them."
+        },
+        {
+            "question": "When you visit your online banking website, you see a green padlock icon next to the URL in the browser address bar. What does this padlock indicate regarding the security of your connection and the legitimacy of the site?",
+            "options": [
+                "The padlock shows the connection is encrypted; however, you must still verify the domain name exactly",
+                "The padlock guarantees the website is safe and owned by your bank",
+                "The padlock only appears after you log in, so it’s irrelevant for security checks",
+                "The padlock indicates the website is free of any security vulnerabilities"
+            ],
+            "answer": "The padlock shows the connection is encrypted; however, you must still verify the domain name exactly",
+            "difficulty": "Easy",
+            "description": "SSL/TLS encryption protects data in transit but does not confirm the site’s identity without checking the correct domain."
+        },
+        {
+            "question": "During tax season, you receive a phone call from someone claiming to be from the Income Tax Department. They request your PAN, bank account details, and OTP to confirm your refund status. What is the most prudent way to handle this unexpected call?",
+            "options": [
+                "Provide the requested information immediately to speed up your refund",
+                "Tell them you’ll call back, then verify the phone number via the official IT department website",
+                "Share only the PAN and ask for OTP later",
+                "Continue the conversation and note down their employee ID"
+            ],
+            "answer": "Tell them you’ll call back, then verify the phone number via the official IT department website",
+            "difficulty": "Medium",
+            "description": "Legitimate officials don’t ask for OTPs or personal details unsolicited. Always verify through official channels."
+        },
+        {
+            "question": "You want to book a flight ticket to Mumbai. Several websites appear in search results: goindigo.in, bookinggoair.com, flyspicejet.net, and airvistara.com. Which domains should you trust to minimize the risk of phishing?",
+            "options": [
+                "goindigo.in and airvistara.com only",
+                "bookinggoair.com and flyspicejet.net only",
+                "All four websites are official",
+                "Ignore domains and book through a mobile app"
+            ],
+            "answer": "goindigo.in and airvistara.com only",
+            "difficulty": "Medium",
+            "description": "Only book through the official carrier domains to avoid fraudulent booking sites using look-alike URLs."
+        },
+        {
+            "question": "Your coworker receives a highly personalized email purportedly from your HR department about updating personal information on the company portal. The email includes the colleague’s full name and department but the link points to hr-update-portal.xyz. What kind of phishing attack is this?",
+            "options": [
+                "Bulk phishing",
+                "Spear-phishing",
+                "Vishing",
+                "Smishing"
+            ],
+            "answer": "Spear-phishing",
+            "difficulty": "Medium",
+            "description": "Spear-phishing targets individuals using personal details to increase credibility and success rate."
+        },
+        {
+            "question": "A banking website you use suddenly prompts you to download a special security plugin from a third-party site, secure-downloads.net, claiming it’s required for your protection. What is the risk associated with this prompt and what should you do?",
+            "options": [
+                "Download and install the plugin immediately for enhanced security",
+                "Ignore the prompt, close the page, and contact the bank’s official support",
+                "Trust the message since it references your bank",
+                "Verify the plugin’s reviews online before installing"
+            ],
+            "answer": "Ignore the prompt, close the page, and contact the bank’s official support",
+            "difficulty": "Medium",
+            "description": "Legitimate banks don’t require random plugins. Always verify through official channels."
+        },
+        {
+            "question": "While reviewing your email, you notice a message from notifications@flipkart-offers.com claiming you won a free voucher. The link takes you to a page with flipkart.com branding but the URL is flipkart-offer.xyz. What steps should you take before considering the offer?",
+            "options": [
+                "Enter your Flipkart login credentials to claim the voucher",
+                "Check the URL carefully, then delete the email if it doesn’t match flipkart.com",
+                "Forward the email to friends so they can claim vouchers too",
+                "Click through and see if the page looks official"
+            ],
+            "answer": "Check the URL carefully, then delete the email if it doesn’t match flipkart.com",
+            "difficulty": "Medium",
+            "description": "Branded phishing pages mimic design but use wrong domains. Always verify the exact domain before proceeding."
+        },
+        {
+            "question": "A website’s SSL certificate appears valid, but the certificate is issued to a different company name than what the site claims to be. What does this mismatch indicate, and should you trust the site?",
+            "options": [
+                "The site is safe if HTTPS is present",
+                "A mismatch in certificate details usually indicates a fraudulent or misconfigured site; do not trust",
+                "The browser will block all such sites automatically",
+                "Certificate details are irrelevant as long as you see a padlock"
+            ],
+            "answer": "A mismatch in certificate details usually indicates a fraudulent or misconfigured site; do not trust",
+            "difficulty": "Medium",
+            "description": "Always verify that the certificate’s issued organization matches the site you intend to visit."
+        },
+        {
+            "question": "You’re verifying an email header and find that the “Received-SPF” field shows a fail for the sending server. What should you conclude about this email’s authenticity?",
+            "options": [
+                "It’s definitely safe since SPF is irrelevant",
+                "SPF failure indicates the sender’s server isn’t authorized; treat the email as suspicious",
+                "A failed SPF means the email is encrypted securely",
+                "Received-SPF relates to email size, not authenticity"
+            ],
+            "answer": "SPF failure indicates the sender’s server isn’t authorized; treat the email as suspicious",
+            "difficulty": "Hard",
+            "description": "SPF records specify authorized sending servers. A failure suggests spoofing."
+        },
+        {
+            "question": "Which browser security feature is specifically designed to block access to malicious phishing sites by checking URLs against a database of known threats?",
+            "options": [
+                "Private browsing mode",
+                "Phishing blacklist integration",
+                "Auto-fill password manager",
+                "Pop-up blocker"
+            ],
+            "answer": "Phishing blacklist integration",
+            "difficulty": "Hard",
+            "description": "Blacklist integration prevents navigation to reported phishing domains."
+        },
+        {
+            "question": "DomainKeys Identified Mail (DKIM) is implemented by email servers. What primary purpose does DKIM serve in email security?",
+            "options": [
+                "Encrypting the email content for privacy",
+                "Attaching digital signatures to verify sender integrity",
+                "Blocking HTML content in emails",
+                "Scanning attachments for malware"
+            ],
+            "answer": "Attaching digital signatures to verify sender integrity",
+            "difficulty": "Hard",
+            "description": "DKIM uses cryptographic signatures to confirm emails weren’t altered and from legitimate domains."
+        },
+        {
+            "question": "You’re using a public USB charging station at an airport and notice a warning sign about “juice jacking.” What is juice jacking, and how can you protect your device?",
+            "options": [
+                "Slow charge due to old ports; bring your own charger",
+                "Malware injection via public USB; use a power-only cable or your own charger",
+                "Overheating from fast chargers; keep device in a cool place",
+                "Charging fails after screen lock; disable auto-lock"
+            ],
+            "answer": "Malware injection via public USB; use a power-only cable or your own charger",
+            "difficulty": "Hard",
+            "description": "Public USB ports can install malware. Use charge-only cables or personal power adapters."
+        },
+        {
+            "question": "DMARC builds on SPF and DKIM in email authentication. Which capability does DMARC add to help recipient servers handle messages that fail authentication checks?",
+            "options": [
+                "It encrypts the email body automatically",
+                "It provides a policy for rejecting or quarantining unauthenticated messages",
+                "It scans attachments for viruses",
+                "It disables HTML content if checks fail"
+            ],
+            "answer": "It provides a policy for rejecting or quarantining unauthenticated messages",
+            "difficulty": "Hard",
+            "description": "DMARC policies instruct receivers how to treat emails failing SPF/DKIM, reducing spoofing."
+        },
+        {
+            "question": "After clicking a link in a phishing SMS, a victim realizes they entered their banking credentials on a fake site. What immediate steps should the victim take to mitigate damage?",
+            "options": [
+                "Ignore any further alerts and monitor accounts monthly",
+                "Change their banking password immediately, enable two-factor authentication, and notify their bank",
+                "Delete browser history and continue normal usage",
+                "Share their experience on social media without changing passwords"
+            ],
+            "answer": "Change their banking password immediately, enable two-factor authentication, and notify their bank",
+            "difficulty": "Hard",
+            "description": "Quickly updating credentials and alerting your bank can prevent unauthorized transactions."
+        },
+        {
+            "question": "You receive an email from admin@uidai-update.in asking you to confirm your Aadhaar details for a security upgrade. The link goes to a page mimicking UIDAI’s site but uses a .in domain you’ve never seen before. What is the most appropriate course of action?",
+            "options": [
+                "Enter your Aadhaar details to complete the upgrade",
+                "Manually navigate to the official UIDAI website and check for announced upgrades",
+                "Reply to the email asking for more information",
+                "Call the phone number in the email for verification"
+            ],
+            "answer": "Manually navigate to the official UIDAI website and check for announced upgrades",
+            "difficulty": "Medium",
+            "description": "Always use known official URLs and verify announcements directly rather than following email links."
+        },
+        {
+            "question": "A WhatsApp message claims it’s from the local police department providing a link to pay a fine online. The URL reads policefinepay.xyz. Which red flags should you notice, and how should you verify before paying?",
+            "options": [
+                "Pay immediately since it’s from police",
+                "Check the official police department website or visit the nearest station",
+                "Reply to the message asking for official badge number",
+                "Share the link with other victims"
+            ],
+            "answer": "Check the official police department website or visit the nearest station",
+            "difficulty": "Medium",
+            "description": "Official departments don’t use random domains. Verify through known official channels or in person."
+        },
+        {
+            "question": "Your email inbox receives a newsletter from linkedin-updates.net that resembles LinkedIn’s style and asks you to sign in to view new connections. What steps can you take to confirm if this email is legitimate?",
+            "options": [
+                "Click the sign-in button in the email",
+                "Hover over links to inspect the actual URL before clicking",
+                "Forward the email to LinkedIn support",
+                "Reply with your password to verify identity"
+            ],
+            "answer": "Hover over links to inspect the actual URL before clicking",
+            "difficulty": "Medium",
+            "description": "Inspecting link destinations helps detect mismatched or malicious domains."
+        },
+        {
+            "question": "You’re using an online exam portal for certification. Suddenly a popup asks you to install a ‘security extension’ from examsecuredownload.com. How do you evaluate this request?",
+            "options": [
+                "Install the extension since it’s recommended for security",
+                "Visit the portal’s official help documentation to verify extension requirements",
+                "Proceed with installation to avoid exam interruptions",
+                "Ignore the popup and continue the exam"
+            ],
+            "answer": "Visit the portal’s official help documentation to verify extension requirements",
+            "difficulty": "Medium",
+            "description": "Legitimate software requirements are documented officially; unknown popups can be malicious."
+        },
+        {
+            "question": "A phishing email uses a subject line referencing the GST refund you applied for and provides a PDF link gstrefund.pdf hosted on gst.gov.in.fraudupdates.com. What elements indicate this is fraudulent?",
+            "options": [
+                "The subject references your GST refund",
+                "The domain structure gst.gov.in.fraudupdates.com is misleading",
+                "The link points to a PDF file",
+                "The email contains GST terminology"
+            ],
+            "answer": "The domain structure gst.gov.in.fraudupdates.com is misleading",
+            "difficulty": "Medium",
+            "description": "Subdomains can mislead users into trusting malicious domains. Verify the true domain hierarchy."
+        },
+        {
+            "question": "Your friend’s LinkedIn account sends you a message with a link to a job posting that requires login. The URL is lnkd.in/jobapply. What precaution should you take before logging in?",
+            "options": [
+                "Log in with your LinkedIn credentials immediately",
+                "Open LinkedIn in a separate tab and navigate to the Jobs section directly",
+                "Share the link with other friends first",
+                "Install a mobile app to view the posting"
+            ],
+            "answer": "Open LinkedIn in a separate tab and navigate to the Jobs section directly",
+            "difficulty": "Medium",
+            "description": "Use official site navigation to avoid phishing clones on shortened or look-alike URLs."
+        },
+        {
+            "question": "An email from notifications@icicibankmail.in informs you of suspicious login attempts and provides a link to secure your account. The link text reads icicibank.com, but the actual URL is icicibank-mail.secureverify.com. How should you respond?",
+            "options": [
+                "Click the link because it looks like icicibank.com",
+                "Manually type the bank’s official domain to check account alerts",
+                "Reply to the email with your security questions",
+                "Forward the email to friends for their opinion"
+            ],
+            "answer": "Manually type the bank’s official domain to check account alerts",
+            "difficulty": "Medium",
+            "description": "False link text can hide real URLs. Always type known domains manually to log in securely."
+        },
+        {
+            "question": "While browsing, you see a banner ad for a vaccine appointment from mohhfw.in.gov. It asks for health ID verification. What’s suspicious, and what action should you take?",
+            "options": [
+                "The banner indicates official site; click to register",
+                "The domain mohhfw.in.gov is incorrect; go to mohhfw.gov.in directly",
+                "Fill in health ID to secure priority slot",
+                "Share your health ID with the banner for confirmation"
+            ],
+            "answer": "The domain mohhfw.in.gov is incorrect; go to mohhfw.gov.in directly",
+            "difficulty": "Medium",
+            "description": "Government domains follow standardized structures. Typosquatting domains should be avoided."
+        },
+        {
+            "question": "Your LinkedIn message from a recruiter includes an attachment named Recruiter_John_Doe.docm. What risk does a .docm file pose, and how should you safely handle it?",
+            "options": [
+                "It’s safe; open it to view job details",
+                ".docm files contain macros; scan with antivirus or request a PDF version",
+                "Rename it to .doc and open",
+                "Reply asking for a video call instead"
+            ],
+            "answer": ".docm files contain macros; scan with antivirus or request a PDF version",
+            "difficulty": "Medium",
+            "description": "Macro-enabled documents can run malicious code. Convert or scan before opening."
+        },
+        {
+            "question": "You click a shortened URL from Twitter (tiny.cc/event) and land on a page asking for SMS OTP to confirm attendance. The domain is not obvious. How can you confirm it’s safe before entering OTP?",
+            "options": [
+                "Enter OTP quickly to confirm",
+                "Use a URL expander or check browser address bar for official event domain",
+                "Share the link with friends to get their OTP",
+                "Request the OTP to be sent again"
+            ],
+            "answer": "Use a URL expander or check browser address bar for official event domain",
+            "difficulty": "Medium",
+            "description": "Always verify the expanded URL and domain authenticity before entering sensitive codes."
+        },
+        {
+            "question": "An email from HR@xyzcorp.com asks for your joining date confirmation on google-docs.joinsurvey.net. What indicates a phishing attempt and what step should you take?",
+            "options": [
+                "The email uses X Corp branding; confirm on the linked site",
+                "The URL google-docs.joinsurvey.net is not owned by Google; delete and confirm via official HR portal",
+                "Complete the survey to avoid onboarding delays",
+                "Reply with your personal data"
+            ],
+            "answer": "The URL google-docs.joinsurvey.net is not owned by Google; delete and confirm via official HR portal",
+            "difficulty": "Medium",
+            "description": "Phishers mimic Google Docs branding but use unrelated domains. Always verify domain ownership."
+        },
+        {
+            "question": "You receive a browser pop-up stating your Flash Player is outdated and provides a link to flashupdate.secure-download.com. What is the risk here, and how should you proceed?",
+            "options": [
+                "Install update for better performance",
+                "Flash Player is officially discontinued; ignore and close the tab",
+                "Update to avoid browser crashes",
+                "Download and run to test functionality"
+            ],
+            "answer": "Flash Player is officially discontinued; ignore and close the tab",
+            "difficulty": "Medium",
+            "description": "Fake plugin updates are common malware vectors. Flash is deprecated and should not be installed."
+        },
+        {
+            "question": "During online filing of your tax return, the portal logs you out unexpectedly and shows a login page at incometax-everify.com. Which sign indicates a phishing attempt, and what should you do to log back in?",
+            "options": [
+                "Trust the everify domain and log in",
+                "Check the URL – official site is incometax.gov.in – and navigate there manually",
+                "Enter credentials to avoid session timeout",
+                "Refresh the page several times"
+            ],
+            "answer": "Check the URL – official site is incometax.gov.in – and navigate there manually",
+            "difficulty": "Medium",
+            "description": "Official tax filing uses government domains only. Verify and use correct URLs."
+        },
+        {
+            "question": "Your mobile banking app prompts to accept a certificate from bank-cert-update.com for secure login. What is the security implication, and how should you respond?",
+            "options": [
+                "Accept certificate to continue banking",
+                "Certificates should be delivered via official app or store; decline and reinstall app from official store",
+                "Install and trust all certificates",
+                "Ignore and reboot device"
+            ],
+            "answer": "Certificates should be delivered via official app or store; decline and reinstall app from official store",
+            "difficulty": "Hard",
+            "description": "Unverified certificates can enable man-in-the-middle attacks. Use official channels only."
+        },
+        {
+            "question": "A colleague forwarded a phishing email that claims to be from your CEO’s public Gmail account, requesting immediate fund transfer. Which factor makes this more credible to the recipient, and how can it be prevented?",
+            "options": [
+                "Use of CEO’s public Gmail address; enforce strict email policies and use corporate domains only",
+                "The urgent tone increases credibility; ignore tone and confirm via corporate messenger",
+                "It’s forwarded internally; trust internal forwarding",
+                "Use of Gmail means free service"
+            ],
+            "answer": "Use of CEO’s public Gmail address; enforce strict email policies and use corporate domains only",
+            "difficulty": "Hard",
+            "description": "Phishers exploit trusted names; enforce corporate email policies and internal verification."
+        },
+        {
+            "question": "You spot a phishing site clone of a popular cryptocurrency exchange. It uses a valid SSL certificate but the URL shows exchange-secure.xyz. Why does SSL not guarantee safety, and what other checks are essential?",
+            "options": [
+                "SSL proves identity; trust padlock",
+                "SSL only encrypts data; verify the exact domain and check for brand trademark infringements",
+                "SSL is irrelevant for phishing",
+                "All .xyz domains are safe"
+            ],
+            "answer": "SSL only encrypts data; verify the exact domain and check for brand trademark infringements",
+            "difficulty": "Hard",
+            "description": "Encryption doesn’t validate ownership. Domain accuracy and brand verification are crucial."
+        },
+        {
+            "question": "You’re part of your university’s admin team. A student reports a phishing email from portal@university-login.com asking for student IDs to reset passwords. Which security control can prevent such spoofing attempts?",
+            "options": [
+                "Disabling student emails temporarily",
+                "Implement SPF, DKIM, and DMARC to authenticate legitimate university emails",
+                "Monitoring student IDs manually",
+                "Blocking all external email domains"
+            ],
+            "answer": "Implement SPF, DKIM, and DMARC to authenticate legitimate university emails",
+            "difficulty": "Hard",
+            "description": "Email authentication protocols prevent domain spoofing and phishing."
+        },
+        {
+            "question": "Your finance app warns that cookies on your machine may be compromised after clicking a random link. Why should you clear cookies and session data, and how do cookies contribute to phishing?",
+            "options": [
+                "Cookies store preferences; clearing them helps performance",
+                "Cookies hold session tokens; clearing invalidates sessions and protects from session hijacking",
+                "Cookies prevent pop-ups",
+                "Cookies enhance encryption"
+            ],
+            "answer": "Cookies hold session tokens; clearing invalidates sessions and protects from session hijacking",
+            "difficulty": "Hard",
+            "description": "Phishing can steal session cookies. Clearing them forces new secure logins."
+        },
+        {
+            "question": "While configuring your office email on a new device, you’re asked for server settings: mail.company.com vs. mail.company.co.in. Which is correct and why?",
+            "options": [
+                "Either works if credentials match",
+                "Use mail.company.co.in if that’s the official configured domain; check IT documentation",
+                "Use the shorter .com domain for ease",
+                "Auto-detect settings always choose .com"
+            ],
+            "answer": "Use mail.company.co.in if that’s the official configured domain; check IT documentation",
+            "difficulty": "Hard",
+            "description": "Attackers can set up look-alike servers; always follow official configuration docs."
+        },
+        {
+            "question": "Your personal blog admin panel requires SSL for login. You notice mixed content warnings on the page. How can mixed content lead to phishing or session hijacking?",
+            "options": [
+                "Mixed content increases speed",
+                "Non-HTTPS resources can be intercepted, injecting malicious scripts to steal credentials",
+                "Mixed content blocks images only",
+                "Mixed content helps mobile compatibility"
+            ],
+            "answer": "Non-HTTPS resources can be intercepted, injecting malicious scripts to steal credentials",
+            "difficulty": "Hard",
+            "description": "All resources must be secure to prevent man-in-the-middle code injection."
+        },
+        {
+            "question": "A banking phishing campaign is using vishing calls claiming to be from cyber security cell, asking for OTPs. What training should employees receive to recognize and report these calls?",
+            "options": [
+                "Verify via official email only",
+                "Always ask caller to identify themselves and call back via recorded corporate line",
+                "Ignore any calls about security",
+                "Share OTP with caller under NDA"
+            ],
+            "answer": "Always ask caller to identify themselves and call back via recorded corporate line",
+            "difficulty": "Hard",
+            "description": "Vishing exploits trust; calling back using known channels confirms legitimacy."
+        },
+        {
+            "question": "You receive a notification on your smartphone claiming to be from Paytm security team about suspicious activity. The notification prompts you to install a security app from paytm-secure-verify.apk. What should raise immediate concern about this request?",
+            "options": [
+                "Install the APK since Paytm sent it",
+                "APK files from unknown sources can contain malware; verify through official Paytm app or website",
+                "Check if the APK is digitally signed",
+                "Forward the APK to friends for verification"
+            ],
+            "answer": "APK files from unknown sources can contain malware; verify through official Paytm app or website",
+            "difficulty": "Medium",
+            "description": "Never install APK files from notifications or emails. Use official app stores and verify through known channels."
+        },
+        {
+            "question": "While browsing job portals, you click on a promising position that redirects to naukri-premium.xyz asking for your complete resume and PAN details for 'background verification'. What indicates this might be a phishing attempt?",
+            "options": [
+                "The site asks for detailed information upfront",
+                "The domain naukri-premium.xyz doesn't match the official naukri.com; verify through official portal",
+                "Background verification is standard practice",
+                "The site uses HTTPS encryption"
+            ],
+            "answer": "The domain naukri-premium.xyz doesn't match the official naukri.com; verify through official portal",
+            "difficulty": "Medium",
+            "description": "Job scammers use look-alike domains to harvest personal data. Always use official job portal domains."
+        },
+        {
+            "question": "Your company's IT department sends an email from it-support@company-internal.com asking all employees to update their Wi-Fi passwords through a provided link. What verification steps should you take before clicking?",
+            "options": [
+                "Click immediately since it's from IT",
+                "Verify the sender's email domain matches your company's official domain structure",
+                "Reply with current password for verification",
+                "Share the link with other employees first"
+            ],
+            "answer": "Verify the sender's email domain matches your company's official domain structure",
+            "difficulty": "Medium",
+            "description": "Internal phishing uses company-like domains. Verify through official IT channels before following links."
+        },
+        {
+            "question": "An email arrives with perfect grammar and your company's logo, claiming to be from HR about mandatory cybersecurity training. The link goes to training.yourcompany.secure-learning.com. How can you verify legitimacy?",
+            "options": [
+                "Trust the professional appearance and company logo",
+                "Check with HR directly using known contact methods to confirm the training requirement",
+                "Complete training immediately to stay compliant",
+                "Forward to colleagues to see if they received it"
+            ],
+            "answer": "Check with HR directly using known contact methods to confirm the training requirement",
+            "difficulty": "Medium",
+            "description": "Professional appearance doesn't guarantee legitimacy. Always verify training announcements through official channels."
+        },
+        {
+            "question": "You're shopping online during a sale and receive a popup saying 'Your connection is not secure, install our browser protection' from browserprotect.shop-secure.com. What risk does this pose?",
+            "options": [
+                "Install protection for safer shopping",
+                "These popups often distribute malware disguised as security software; close and scan your device",
+                "Verify if the popup is from the shopping site",
+                "Compare with other browser protection tools"
+            ],
+            "answer": "These popups often distribute malware disguised as security software; close and scan your device",
+            "difficulty": "Medium",
+            "description": "Fake security popups are common malware distribution methods. Never install software from random popups."
+        },
+        {
+            "question": "A LinkedIn connection sends you a message about an investment opportunity with a link to linkedin-invest.premium-opportunities.net. The message appears to be from someone you know professionally. How should you proceed?",
+            "options": [
+                "Trust the connection and click the investment link",
+                "Message the person directly through LinkedIn's official platform to confirm they sent it",
+                "Share your investment portfolio details immediately",
+                "Forward the opportunity to other connections"
+            ],
+            "answer": "Message the person directly through LinkedIn's official platform to confirm they sent it",
+            "difficulty": "Medium",
+            "description": "Compromised accounts spread phishing. Verify through the official platform before clicking external links."
+        },
+        {
+            "question": "While using internet banking, you notice the URL changes from https://netbanking.hdfcbank.com to https://netbanking.hdfcbank.co.in during your session. What should concern you about this change?",
+            "options": [
+                "Both domains belong to HDFC; continue banking",
+                "Domain switching during sessions can indicate session hijacking; log out and verify official domain",
+                "The .co.in domain is more secure than .com",
+                "URL changes are normal during banking"
+            ],
+            "answer": "Domain switching during sessions can indicate session hijacking; log out and verify official domain",
+            "difficulty": "Hard",
+            "description": "Unexpected domain changes during sessions can indicate attacks. Always verify official domains."
+        },
+        {
+            "question": "Your email client shows an email from amazon-noreply@email.amazon.com about account suspension, but the email headers show it originated from bulkmail.phisher.net. What does this discrepancy indicate?",
+            "options": [
+                "The email is legitimate since it shows Amazon's address",
+                "The headers reveal email spoofing; the From address is forged",
+                "Header information is unreliable",
+                "Amazon uses multiple email servers"
+            ],
+            "answer": "The headers reveal email spoofing; the From address is forged",
+            "difficulty": "Hard",
+            "description": "Email headers reveal true origins. Mismatched headers indicate spoofing attempts."
+        },
+        {
+            "question": "You receive a video call from someone claiming to be bank security asking you to show your debit card to verify it's genuine during a 'routine security check'. What social engineering technique is being used?",
+            "options": [
+                "Authority impersonation combined with urgency",
+                "Authority impersonation combined with visual verification requests",
+                "Standard bank security procedure",
+                "Routine compliance checking"
+            ],
+            "answer": "Authority impersonation combined with visual verification requests",
+            "difficulty": "Hard",
+            "description": "Banks never ask to see cards via video calls. This combines impersonation with visual social engineering."
+        },
+        {
+            "question": "A phishing email passes SPF and DKIM checks but fails DMARC policy. What does this suggest about the email's authenticity and the domain's security configuration?",
+            "options": [
+                "The email is definitely legitimate",
+                "DMARC failure suggests the domain owner hasn't properly configured alignment policies",
+                "SPF and DKIM passing means it's safe",
+                "DMARC is irrelevant if other checks pass"
+            ],
+            "answer": "DMARC failure suggests the domain owner hasn't properly configured alignment policies",
+            "difficulty": "Hard",
+            "description": "DMARC requires SPF/DKIM alignment with From header. Failures can indicate misconfig or spoofing."
+        },
+        {
+            "question": "Your organization implements BIMI (Brand Indicators for Message Identification). An email appears with your company's logo but fails DMARC. How should email clients handle this according to BIMI standards?",
+            "options": [
+                "Display the logo since it's verified",
+                "Not display the logo since DMARC authentication failed",
+                "Show a warning with the logo",
+                "Display a generic logo instead"
+            ],
+            "answer": "Not display the logo since DMARC authentication failed",
+            "difficulty": "Hard",
+            "description": "BIMI requires DMARC pass to display brand logos, preventing spoofed emails from showing trusted branding."
+        },
+        {
+            "question": "You discover a phishing site using your company's SSL certificate through a compromised certificate authority. What immediate steps should your security team take?",
+            "options": [
+                "Ignore since your real site still works",
+                "Revoke the compromised certificate and implement Certificate Transparency monitoring",
+                "Change website passwords only",
+                "Contact the phishing site to request removal"
+            ],
+            "answer": "Revoke the compromised certificate and implement Certificate Transparency monitoring",
+            "difficulty": "Hard",
+            "description": "Compromised certificates enable convincing phishing. Revocation and monitoring prevent further misuse."
+        },
+        {
+            "question": "A sophisticated phishing attack uses homograph characters (е instead of e) in the domain name аmazon.com. How can users protect themselves from such attacks?",
+            "options": [
+                "Rely on browser warnings only",
+                "Use bookmarks for frequently visited sites and enable punycode display in browsers",
+                "Type URLs faster to avoid typos",
+                "Disable Unicode support in browsers"
+            ],
+            "answer": "Use bookmarks for frequently visited sites and enable punycode display in browsers",
+            "difficulty": "Hard",
+            "description": "Homograph attacks use similar-looking Unicode characters. Bookmarks and punycode display prevent confusion."
+        },
+        {
+            "question": "Your mobile device shows a notification that looks like it's from your banking app, but when you tap it, it opens a web browser instead of the app. What security concern does this raise?",
+            "options": [
+                "The app needs updating",
+                "Malicious apps can create fake notifications to redirect to phishing sites",
+                "The bank is updating their notification system",
+                "Your phone needs restarting"
+            ],
+            "answer": "Malicious apps can create fake notifications to redirect to phishing sites",
+            "difficulty": "Hard",
+            "description": "Fake notifications can mimic legitimate apps. Always open apps directly rather than through notifications."
+        },
+        {
+            "question": "During incident response to a phishing attack, you find that attackers used email headers spoofing and social engineering. What combination of technical and user education measures would be most effective?",
+            "options": [
+                "Only technical solutions like email filtering",
+                "Implement DMARC, provide regular phishing simulation training, and establish clear verification procedures",
+                "Only user education about email safety",
+                "Block all external emails temporarily"
+            ],
+            "answer": "Implement DMARC, provide regular phishing simulation training, and establish clear verification procedures",
+            "difficulty": "Hard",
+            "description": "Effective phishing prevention requires both technical controls and human awareness training."
+        },
+        {
+            "question": "A user reports receiving identical phishing emails to multiple company addresses that aren't publicly listed. What does this suggest about the attack vector?",
+            "options": [
+                "Random email generation",
+                "Data breach or email harvesting from company systems or partners",
+                "Social media scraping only",
+                "Dictionary attacks on email addresses"
+            ],
+            "answer": "Data breach or email harvesting from company systems or partners",
+            "difficulty": "Hard",
+            "description": "Targeted emails to unlisted addresses often indicate data breaches requiring investigation."
+        },
+        {
+            "question": "You're conducting a phishing simulation for your organization. An employee forwards the simulation email to the entire company warning about 'phishing'. How should you handle this response?",
+            "options": [
+                "Reprimand the employee for spoiling the test",
+                "Commend the employee for security awareness while explaining the simulation program",
+                "Ignore the response and continue testing",
+                "Mark the employee as failed"
+            ],
+            "answer": "Commend the employee for security awareness while explaining the simulation program",
+            "difficulty": "Hard",
+            "description": "Proactive security reporting should be encouraged even during simulations. Use as teaching opportunity."
+        },
+        {
+            "question": "A phishing campaign targets your organization using information from recent LinkedIn posts about company events. What type of social engineering attack is this, and how can it be mitigated?",
+            "options": [
+                "Random phishing; ignore social media",
+                "Open Source Intelligence (OSINT) based spear-phishing; implement social media awareness training",
+                "Standard email attack; block LinkedIn",
+                "Internal threat; investigate employees"
+            ],
+            "answer": "Open Source Intelligence (OSINT) based spear-phishing; implement social media awareness training",
+            "difficulty": "Hard",
+            "description": "Attackers use public information for credible attacks. Train employees on information sharing risks."
+        },
+        {
+            "question": "Your organization's domain has been typosquatted with yоurcompany.com (using Cyrillic 'о'). What legal and technical actions can you take to protect users?",
+            "options": [
+                "Ignore since it's not identical",
+                "File trademark infringement complaint, register similar domains defensively, and implement brand monitoring",
+                "Only notify users through email",
+                "Change your company domain"
+            ],
+            "answer": "File trademark infringement complaint, register similar domains defensively, and implement brand monitoring",
+            "difficulty": "Hard",
+            "description": "Proactive domain protection includes legal action, defensive registration, and monitoring."
+        },
+        {
+            "question": "During a security audit, you find that your company's password reset emails contain clickable links instead of requiring users to type URLs manually. What security improvement should be implemented?",
+            "options": [
+                "Make links more obvious",
+                "Replace links with instructions to visit the site manually and enter provided codes",
+                "Add more security questions",
+                "Send multiple emails with different links"
+            ],
+            "answer": "Replace links with instructions to visit the site manually and enter provided codes",
+            "difficulty": "Hard",
+            "description": "Avoiding clickable links in sensitive emails prevents credential theft from spoofed messages."
+        },
+        {
+            "question": "A sophisticated phishing attack uses a legitimate cloud service (Google Drive) to host malicious content and sends the sharing link via email. How does this technique evade traditional security filters?",
+            "options": [
+                "Google Drive links are always safe",
+                "Legitimate services are whitelisted by filters, and the attack payload is hosted on trusted infrastructure",
+                "Cloud services encrypt all content automatically",
+                "Shared links expire quickly"
+            ],
+            "answer": "Legitimate services are whitelisted by filters, and the attack payload is hosted on trusted infrastructure",
+            "difficulty": "Hard",
+            "description": "Attackers abuse trusted services to bypass security filters. Additional content analysis is needed."
+        },
+        {
+            "question": "Your mobile banking app uses certificate pinning. You receive an error saying the certificate doesn't match the pinned certificate when connecting. What does this indicate?",
+            "options": [
+                "Normal certificate renewal process",
+                "Possible man-in-the-middle attack or network interference; use different network and contact bank",
+                "App needs updating",
+                "Phone date/time is incorrect"
+            ],
+            "answer": "Possible man-in-the-middle attack or network interference; use different network and contact bank",
+            "difficulty": "Hard",
+            "description": "Certificate pinning failures indicate potential attacks. Switch networks and verify with bank."
+        },
+        {
+            "question": "A phishing email contains a QR code claiming to link to your bank's mobile app download page. What risks does scanning this QR code pose?",
+            "options": [
+                "QR codes are always safe to scan",
+                "QR codes can redirect to malicious sites or trigger automatic downloads; verify app store manually",
+                "QR codes only contain text information",
+                "Mobile cameras automatically verify QR code safety"
+            ],
+            "answer": "QR codes can redirect to malicious sites or trigger automatic downloads; verify app store manually",
+            "difficulty": "Hard",
+            "description": "QR codes can hide malicious URLs or triggers. Always download apps from official stores."
+        },
+        {
+            "question": "During a phishing investigation, you discover that attackers used email thread hijacking - inserting malicious replies into existing legitimate email conversations. What makes this technique particularly effective?",
+            "options": [
+                "It uses new email addresses",
+                "It leverages existing trust relationships and conversation context to appear legitimate",
+                "It bypasses all email filters",
+                "It only targets specific individuals"
+            ],
+            "answer": "It leverages existing trust relationships and conversation context to appear legitimate",
+            "difficulty": "Hard",
+            "description": "Thread hijacking exploits established trust and context, making malicious emails highly credible."
+        },
+        {
+            "question": "Your organization implements DNS filtering to block known phishing domains. Attackers start using fast-flux DNS techniques, rapidly changing IP addresses for their domains. How should you adapt your defense strategy?",
+            "options": [
+                "Increase DNS cache timeout",
+                "Implement real-time threat intelligence feeds and behavioral analysis of DNS queries",
+                "Block all DNS changes",
+                "Switch to static IP filtering only"
+            ],
+            "answer": "Implement real-time threat intelligence feeds and behavioral analysis of DNS queries",
+            "difficulty": "Hard",
+            "description": "Fast-flux attacks require dynamic defense with real-time intelligence and behavior analysis."
+        },
+        {
+            "question": "A phishing email uses steganography to hide malicious URLs within images that appear to be legitimate corporate logos. How can traditional email security systems be enhanced to detect such attacks?",
+            "options": [
+                "Block all images in emails",
+                "Implement image analysis and steganography detection capabilities",
+                "Only allow text-based emails",
+                "Scan images for viruses only"
+            ],
+            "answer": "Implement image analysis and steganography detection capabilities",
+            "difficulty": "Hard",
+            "description": "Advanced attacks require sophisticated detection including steganography analysis and image inspection."
+        },
+        {
+            "question": "Your company uses OAuth for single sign-on. A phishing attack tricks users into authorizing a malicious application that requests broad permissions. What OAuth security measures should have been implemented?",
+            "options": [
+                "Allow all OAuth applications",
+                "Implement application whitelisting, scope limitation, and user education about OAuth permissions",
+                "Disable OAuth entirely",
+                "Only allow Google applications"
+            ],
+            "answer": "Implement application whitelisting, scope limitation, and user education about OAuth permissions",
+            "difficulty": "Hard",
+            "description": "OAuth security requires controlling which apps can integrate and educating users about permission risks."
+        },
+        {
+            "question": "A phishing campaign uses compromised WordPress sites to host redirect pages that eventually lead to credential harvesting pages. What multi-layered defense approach would be most effective?",
+            "options": [
+                "Block all WordPress sites",
+                "Implement URL reputation checking, content analysis, redirect chain inspection, and user awareness training",
+                "Only use antivirus software",
+                "Block all redirects"
+            ],
+            "answer": "Implement URL reputation checking, content analysis, redirect chain inspection, and user awareness training",
+            "difficulty": "Hard",
+            "description": "Complex attack chains require comprehensive defense including technical controls and user education."
+        },
+        {
+            "question": "Your organization experiences a whaling attack where the CEO receives a highly personalized phishing email with information gathered from multiple public sources. What comprehensive protection strategy should be implemented?",
+            "options": [
+                "Only provide email security training to executives",
+                "Implement executive protection protocols, OSINT monitoring, additional authentication for high-risk requests, and privacy guidance",
+                "Block all external emails to executives",
+                "Require executives to use different email addresses"
+            ],
+            "answer": "Implement executive protection protocols, OSINT monitoring, additional authentication for high-risk requests, and privacy guidance",
+            "difficulty": "Hard",
+            "description": "Executive targeting requires comprehensive protection including monitoring, authentication, and privacy controls."
+        },
+        {
+            "question": "You receive an email from finance@payu-india.in with an invoice attachment asking for payment. The official PayU domain is payu.com. What immediate action should you take?",
+            "options": [
+                "Open the attachment since it may be a valid invoice",
+                "Verify the sender’s domain and contact PayU support through official channels before any action",
+                "Forward the email to your finance team without verification",
+                "Reply with your bank details to expedite payment"
+            ],
+            "answer": "Verify the sender’s domain and contact PayU support through official channels before any action",
+            "difficulty": "Medium",
+            "description": "Always confirm invoice legitimacy via known corporate contact methods when domains don’t match."
+        },
+        {
+            "question": "A pop-up on a government service portal claims your session expired and asks you to re-enter credentials at gov.in-session-update.com. Considering the legitimate portal is gov.in, how should you proceed?",
+            "options": [
+                "Enter credentials to continue",
+                "Close the pop-up, clear your browser cache, and navigate manually to the portal",
+                "Refresh the pop-up for a valid login page",
+                "Click 'Trust this site' to fix session issues"
+            ],
+            "answer": "Close the pop-up, clear your browser cache, and navigate manually to the portal",
+            "difficulty": "Medium",
+            "description": "Session hijack attempts use fake pop-ups. Always navigate directly to official URLs."
+        },
+        {
+            "question": "Your email shows a request from support@whatsapp-sms.in to verify your WhatsApp number. The real WhatsApp support uses whatsapp.com domains. What phishing indicator does this represent?",
+            "options": [
+                "Use of HTTPS",
+                "Use of misleading domain name to impersonate a legitimate service",
+                "Use of SMS verification",
+                "Legitimate branding elements"
+            ],
+            "answer": "Use of misleading domain name to impersonate a legitimate service",
+            "difficulty": "Medium",
+            "description": "Phishers create look-alike domains to impersonate known brands and harvest credentials."
+        },
+        {
+            "question": "During an online exam, you receive a link via email promising ‘cheat sheets’ hosted on cheatdocs.examprep.org, which requires login credentials. How should you respond to protect your account?",
+            "options": [
+                "Login to cheatdocs.examprep.org to access the cheat sheets",
+                "Ignore the email and report it to exam authorities",
+                "Share your credentials with fellow students",
+                "Download the cheat sheets without login"
+            ],
+            "answer": "Ignore the email and report it to exam authorities",
+            "difficulty": "Easy",
+            "description": "Avoid unofficial exam resources requiring your credentials, as they’re likely malicious."
+        },
+        {
+            "question": "A friend on Facebook shares a link to watch a viral video. The link goes to facebook-videos.securestreaming.com and asks for your login details. What red flags are present?",
+            "options": [
+                "Use of HTTPS and 'secure' in domain name",
+                "The domain does not belong to Facebook; login details request is suspicious",
+                "Friends’ shared links are always safe",
+                "Video streaming sites require login credentials"
+            ],
+            "answer": "The domain does not belong to Facebook; login details request is suspicious",
+            "difficulty": "Easy",
+            "description": "Suspicious domains and unexpected credential requests indicate phishing."
+        },
+        {
+            "question": "While accessing your work files on a cloud service, you get redirected to a login page at files.company-cloudlogin.com. How can you verify this page’s authenticity?",
+            "options": [
+                "Trust because cloud services often use custom domains",
+                "Check company IT documentation for the correct domain and compare",
+                "Login quickly to restore file access",
+                "Download a file to test access"
+            ],
+            "answer": "Check company IT documentation for the correct domain and compare",
+            "difficulty": "Medium",
+            "description": "Always refer to official internal documentation to confirm service URLs."
+        },
+        {
+            "question": "An SMS purportedly from your telecom provider states that your bill is overdue and includes a link to pay at telecombillpay.xyz. Your provider’s official site uses operator.com domains. What best practice applies here?",
+            "options": [
+                "Click the link to avoid service cutoff",
+                "Use the official operator app or website to check and pay your bill",
+                "Reply 'PAY' to the SMS",
+                "Ignore billing notifications"
+            ],
+            "answer": "Use the official operator app or website to check and pay your bill",
+            "difficulty": "Medium",
+            "description": "Only use known official channels for bill payment to avoid phishing."
+        },
+        {
+            "question": "Your manager sends you a Teams message with a link to review a document labeled 'Q3 financials.' The URL is teams.microsoft.com-review.link, which is not a typical Teams URL. What safe verification step can you take?",
+            "options": [
+                "Click the link within Teams",
+                "Ask your manager directly in Teams to confirm the link",
+                "Download the document from the link regardless",
+                "Copy and paste the link into a browser"
+            ],
+            "answer": "Ask your manager directly in Teams to confirm the link",
+            "difficulty": "Medium",
+            "description": "Confirm unexpected links even from colleagues through a secondary message."
+        },
+        {
+            "question": "An email from support@netflix-bill-update.com warns your account will be suspended unless you verify payment. How do you verify whether this is a legitimate Netflix communication?",
+            "options": [
+                "Click the provided link and update payment info",
+                "Log into Netflix via the official app or website and check notifications",
+                "Reply to the email asking for more time",
+                "Forward it to friends for advice"
+            ],
+            "answer": "Log into Netflix via the official app or website and check notifications",
+            "difficulty": "Easy",
+            "description": "Always log in through official channels for account status instead of following email links."
+        },
+        {
+            "question": "Your antivirus alerts you to a phishing attempt blocked on dropbox-update.com. The legitimate Dropbox domain is dropbox.com. What does this show about the importance of antivirus and domain awareness?",
+            "options": [
+                "Antivirus alone is sufficient",
+                "Domain awareness combined with endpoint protection can block phishing attempts effectively",
+                "Phishing sites never trigger antivirus alerts",
+                "Use of 'update' in domains is always safe"
+            ],
+            "answer": "Domain awareness combined with endpoint protection can block phishing attempts effectively",
+            "difficulty": "Medium",
+            "description": "Layered defenses, including antivirus and knowledge of official domains, improve security."
+        },
+        {
+            "question": "You receive a legitimate service notification on LinkedIn from admin@linkedin.com, but the email’s HTML content has hidden redirection scripts. What content filtering measure can detect this threat?",
+            "options": [
+                "Allow all HTML emails",
+                "Implement sandboxed rendering and link rewriting in the email security gateway",
+                "Block all HTML content entirely",
+                "Rely on user reports only"
+            ],
+            "answer": "Implement sandboxed rendering and link rewriting in the email security gateway",
+            "difficulty": "Hard",
+            "description": "Advanced email security should analyze and rewrite links, preventing hidden redirections."
+        },
+        {
+            "question": "Your VPN client prompts an update from security.vpnupdate.net. What potential threat is present, and how should you secure your VPN updates?",
+            "options": [
+                "Updates from any domain are safe",
+                "Malicious update servers can deliver trojans; always update via the official client or vendor site",
+                "Skipping VPN updates has no risk",
+                "Use third-party sites for faster updates"
+            ],
+            "answer": "Malicious update servers can deliver trojans; always update via the official client or vendor site",
+            "difficulty": "Medium",
+            "description": "Software updates should be sourced only from the vendor’s official distribution channels."
+        },
+        {
+            "question": "You’re verifying a QR code on an ATM that claims to show transaction details. ATMs display a QR code that directs to atm-transactions.info. What is the risk, and how should you verify ATM transactions?",
+            "options": [
+                "QR codes always secure",
+                "QR codes can lead to phishing sites; use bank receipts or official ATM screens instead",
+                "Scan to see transaction logs",
+                "Report to bank after scanning"
+            ],
+            "answer": "QR codes can lead to phishing sites; use bank receipts or official ATM screens instead",
+            "difficulty": "Medium",
+            "description": "Physical devices can present malicious QR codes. Rely on built-in ATM interfaces."
+        },
+        {
+            "question": "Your smartphone’s browser suggests autofill credentials on a banking login form at login.banksecure-verification.com. What autofill behavior should be configured to prevent credential leakage?",
+            "options": [
+                "Enable autofill for all sites",
+                "Restrict autofill to exact saved domains and disable for subdomains",
+                "Disable autofill entirely",
+                "Auto-populate partial credentials only"
+            ],
+            "answer": "Restrict autofill to exact saved domains and disable for subdomains",
+            "difficulty": "Medium",
+            "description": "Configuring autofill for exact domains prevents credentials from being filled into phishing pages."
+        },
+        {
+            "question": "Your coworker praised a browser extension promising ad-blocking and phishing protection called ‘SafeBrowse Plus,’ but it’s only available from safebrowse-plus-download.exe. What due diligence should you perform before installing?",
+            "options": [
+                "Install since coworker recommended",
+                "Verify extension availability in official browser stores and read reviews before installation",
+                "Install and update antivirus afterward",
+                "Download from multiple sites"
+            ],
+            "answer": "Verify extension availability in official browser stores and read reviews before installation",
+            "difficulty": "Easy",
+            "description": "Browser extensions install deeply; always use official stores and reputable sources."
+        },
+        {
+            "question": "A phishing email contains a link disguised as a Microsoft Teams meeting with a URL meeting.zoom.microsoft.com.fakejoin.com. What URL parsing practice helps detect such malicious links?",
+            "options": [
+                "Trust the first part of the URL",
+                "Read the full URL right of the last slash to identify the real domain",
+                "Click to confirm destination",
+                "Ignore URL parsing; rely on website branding"
+            ],
+            "answer": "Read the full URL right of the last slash to identify the real domain",
+            "difficulty": "Hard",
+            "description": "Attackers include trusted names in subdomains. Always identify the actual domain by parsing correctly."
+        },
+        {
+            "question": "Your security team notices users installing a rogue email client designed to capture credentials. Which mobile device management (MDM) policy can prevent unauthorized app installation?",
+            "options": [
+                "Allow all app installs",
+                "Enforce MDM-managed app store only and block sideloading",
+                "Require user permission for each install",
+                "Install antivirus on mobile"
+            ],
+            "answer": "Enforce MDM-managed app store only and block sideloading",
+            "difficulty": "Hard",
+            "description": "Controlling install sources prevents rogue apps. MDM policies should block sideloading."
+        },
+        {
+            "question": "A phishing campaign uses typosquatted subdomains of a legitimate file-sharing service, such as fileshare.secure-app.com. How can DNS-based security help mitigate this risk?",
+            "options": [
+                "Allow all secure-app.com subdomains",
+                "Use DNS filtering and allow-list only verified subdomains",
+                "Use wildcard DNS blocking",
+                "Disable DNS resolution for file sharing"
+            ],
+            "answer": "Use DNS filtering and allow-list only verified subdomains",
+            "difficulty": "Hard",
+            "description": "DNS allow-listing restricts resolution to known safe domains, blocking typosquatted subdomains."
+        },
+        {
+            "question": "You receive an email from finance@payu-india.in with an invoice attachment asking for payment. The official PayU domain is payu.com. What immediate action should you take?",
+            "options": [
+                "Open the attachment since it may be a valid invoice",
+                "Verify the sender’s domain and contact PayU support through official channels before any action",
+                "Forward the email to your finance team without verification",
+                "Reply with your bank details to expedite payment"
+            ],
+            "answer": "Verify the sender’s domain and contact PayU support through official channels before any action",
+            "difficulty": "Medium",
+            "description": "Always confirm invoice legitimacy via known corporate contact methods when domains don’t match."
+        },
+        {
+            "question": "A pop-up on a government service portal claims your session expired and asks you to re-enter credentials at gov.in-session-update.com. Considering the legitimate portal is gov.in, how should you proceed?",
+            "options": [
+                "Enter credentials to continue",
+                "Close the pop-up, clear your browser cache, and navigate manually to the portal",
+                "Refresh the pop-up for a valid login page",
+                "Click 'Trust this site' to fix session issues"
+            ],
+            "answer": "Close the pop-up, clear your browser cache, and navigate manually to the portal",
+            "difficulty": "Medium",
+            "description": "Session hijack attempts use fake pop-ups. Always navigate directly to official URLs."
+        },
+        {
+            "question": "Your email shows a request from support@whatsapp-sms.in to verify your WhatsApp number. The real WhatsApp support uses whatsapp.com domains. What phishing indicator does this represent?",
+            "options": [
+                "Use of HTTPS",
+                "Use of misleading domain name to impersonate a legitimate service",
+                "Use of SMS verification",
+                "Legitimate branding elements"
+            ],
+            "answer": "Use of misleading domain name to impersonate a legitimate service",
+            "difficulty": "Medium",
+            "description": "Phishers create look-alike domains to impersonate known brands and harvest credentials."
+        },
+        {
+            "question": "During an online exam, you receive a link via email promising ‘cheat sheets’ hosted on cheatdocs.examprep.org, which requires login credentials. How should you respond to protect your account?",
+            "options": [
+                "Login to cheatdocs.examprep.org to access the cheat sheets",
+                "Ignore the email and report it to exam authorities",
+                "Share your credentials with fellow students",
+                "Download the cheat sheets without login"
+            ],
+            "answer": "Ignore the email and report it to exam authorities",
+            "difficulty": "Easy",
+            "description": "Avoid unofficial exam resources requiring your credentials, as they’re likely malicious."
+        },
+        {
+            "question": "A friend’s Facebook account posts a message claiming they got you a gift card and asking you to click an external link. Before clicking, what should you consider to confirm if the post is genuine?",
+            "options": [
+                "Check if the link uses HTTPS",
+                "Ask your friend directly via a separate channel if they actually posted it",
+                "Click quickly to thank them",
+                "Share the post on your timeline"
+            ],
+            "answer": "Ask your friend directly via a separate channel if they actually posted it",
+            "difficulty": "Medium",
+            "description": "Confirming through another channel helps detect if a social media account was compromised."
+        },
+        {
+            "question": "An email from notifications@icicibankmail.in informs you of suspicious login attempts and provides a link to secure your account. The link text reads icicibank.com, but the actual URL is icicibank-mail.secureverify.com. How should you respond?",
+            "options": [
+                "Click the link because it looks like icicibank.com",
+                "Manually type the bank’s official domain to check account alerts",
+                "Reply to the email with your security questions",
+                "Forward the email to friends for their opinion"
+            ],
+            "answer": "Manually type the bank’s official domain to check account alerts",
+            "difficulty": "Medium",
+            "description": "False link text can hide real URLs. Always type known domains manually to log in securely."
+        },
+        {
+            "question": "While browsing, you see a banner ad for a vaccine appointment from mohhfw.in.gov. It asks for health ID verification. What’s suspicious, and what action should you take?",
+            "options": [
+                "The banner indicates official site; click to register",
+                "The domain mohhfw.in.gov is incorrect; go to mohhfw.gov.in directly",
+                "Fill in health ID to secure priority slot",
+                "Share your health ID with the banner for confirmation"
+            ],
+            "answer": "The domain mohhfw.in.gov is incorrect; go to mohhfw.gov.in directly",
+            "difficulty": "Medium",
+            "description": "Government domains follow standardized structures. Typosquatting domains should be avoided."
+        },
+        {
+            "question": "Your LinkedIn message from a recruiter includes an attachment named Recruiter_John_Doe.docm. What risk does a .docm file pose, and how should you safely handle it?",
+            "options": [
+                "It’s safe; open it to view job details",
+                ".docm files contain macros; scan with antivirus or request a PDF version",
+                "Rename it to .doc and open",
+                "Reply asking for a video call instead"
+            ],
+            "answer": ".docm files contain macros; scan with antivirus or request a PDF version",
+            "difficulty": "Medium",
+            "description": "Macro-enabled documents can run malicious code. Convert or scan before opening."
+        },
+        {
+            "question": "You click a shortened URL from Twitter (tiny.cc/event) and land on a page asking for SMS OTP to confirm attendance. The domain is not obvious. How can you confirm it’s safe before entering OTP?",
+            "options": [
+                "Enter OTP quickly to confirm",
+                "Use a URL expander or check browser address bar for official event domain",
+                "Share the link with friends to get their OTP",
+                "Request the OTP to be sent again"
+            ],
+            "answer": "Use a URL expander or check browser address bar for official event domain",
+            "difficulty": "Medium",
+            "description": "Always verify the expanded URL and domain authenticity before entering sensitive codes."
+        },
+        {
+            "question": "An email from HR@xyzcorp.com asks for your joining date confirmation on google-docs.joinsurvey.net. What indicates a phishing attempt and what step should you take?",
+            "options": [
+                "The email uses X Corp branding; confirm on the linked site",
+                "The URL google-docs.joinsurvey.net is not owned by Google; delete and confirm via official HR portal",
+                "Complete the survey to avoid onboarding delays",
+                "Reply with your personal data"
+            ],
+            "answer": "The URL google-docs.joinsurvey.net is not owned by Google; delete and confirm via official HR portal",
+            "difficulty": "Medium",
+            "description": "Phishers mimic Google Docs branding but use unrelated domains. Always verify domain ownership."
+        },
+        {
+            "question": "You receive a browser pop-up stating your Flash Player is outdated and provides a link to flashupdate.secure-download.com. What is the risk here, and how should you proceed?",
+            "options": [
+                "Install update for better performance",
+                "Flash Player is officially discontinued; ignore and close the tab",
+                "Update to avoid browser crashes",
+                "Download and run to test functionality"
+            ],
+            "answer": "Flash Player is officially discontinued; ignore and close the tab",
+            "difficulty": "Medium",
+            "description": "Fake plugin updates are common malware vectors. Flash is deprecated and should not be installed."
+        },
+        {
+            "question": "During online filing of your tax return, the portal logs you out unexpectedly and shows a login page at incometax-everify.com. Which sign indicates a phishing attempt, and what should you do to log back in?",
+            "options": [
+                "Trust the everify domain and log in",
+                "Check the URL – official site is incometax.gov.in – and navigate there manually",
+                "Enter credentials to avoid session timeout",
+                "Refresh the page several times"
+            ],
+            "answer": "Check the URL – official site is incometax.gov.in – and navigate there manually",
+            "difficulty": "Medium",
+            "description": "Official tax filing uses government domains only. Verify and use correct URLs."
+        },
+        {
+            "question": "Your mobile banking app prompts to accept a certificate from bank-cert-update.com for secure login. What is the security implication, and how should you respond?",
+            "options": [
+                "Accept certificate to continue banking",
+                "Certificates should be delivered via official app or store; decline and reinstall app from official store",
+                "Install and trust all certificates",
+                "Ignore and reboot device"
+            ],
+            "answer": "Certificates should be delivered via official app or store; decline and reinstall app from official store",
+            "difficulty": "Hard",
+            "description": "Unverified certificates"
+        },
+        {
+            "question": "A phishing email pretends to be from your bank’s fraud detection team with urgent language demanding your account password immediately to stop suspicious activity. What is the correct way to respond to such an email?",
+            "options": [
+                "Reply with your password to resolve the issue quickly",
+                "Click any links included to verify your identity",
+                "Ignore the email and contact your bank directly using known phone numbers",
+                "Forward the email to friends to warn them"
+            ],
+            "answer": "Ignore the email and contact your bank directly using known phone numbers",
+            "difficulty": "Easy",
+            "description": "Banks never ask for passwords via email. Always verify suspicious alerts through official channels."
+        },
+        {
+            "question": "You get an SMS from a number claiming to be your mobile operator offering a special recharge deal with a link. How do you avoid falling victim to phishing scams via SMS (smishing)?",
+            "options": [
+                "Click the link to get the deal before it expires",
+                "Ignore the message and use your operator’s official app or website for transactions",
+                "Reply with YES to claim the deal",
+                "Share the SMS with other contacts"
+            ],
+            "answer": "Ignore the message and use your operator’s official app or website for transactions",
+            "difficulty": "Easy",
+            "description": "Only use official apps or websites for mobile operator services; never trust unsolicited links."
+        },
+        {
+            "question": "When logging into an official government website like incometax.gov.in, which of the following practices best helps prevent phishing?",
+            "options": [
+                "Clicking emailed links to get to the login page",
+                "Typing the URL manually or using a trusted bookmark",
+                "Searching the URL on Google and clicking the top result",
+                "Using public Wi-Fi to save mobile data"
+            ],
+            "answer": "Typing the URL manually or using a trusted bookmark",
+            "difficulty": "Easy",
+            "description": "Manually entering URLs or using bookmarks reduces risk of directing to fake sites."
+        },
+        {
+            "question": "An email offers you a chance to win a free smartphone and asks you to share your bank details to claim the prize. What is the safest course of action?",
+            "options": [
+                "Provide your bank details quickly",
+                "Ignore and delete the email immediately",
+                "Forward the email to friends to help them claim prizes",
+                "Reply asking for more details"
+            ],
+            "answer": "Ignore and delete the email immediately",
+            "difficulty": "Easy",
+            "description": "Unexpected prize offers are classic phishing bait; sharing bank details leads to theft."
+        },
+        {
+            "question": "You receive an email with an attachment named 'invoice.pdf.exe'. Why should you be cautious about this attachment?",
+            "options": [
+                "It’s a harmless PDF file",
+                "The .exe extension means it is an executable and potentially malicious",
+                "The '.pdf.exe' means it is a signed document",
+                "It is safe if from a known sender"
+            ],
+            "answer": "The .exe extension means it is an executable and potentially malicious",
+            "difficulty": "Easy",
+            "description": "Double extensions like '.pdf.exe' attempt to disguise malware as documents. Do not open."
+        },
+        {
+            "question": "What does the green padlock next to a URL in your browser address bar signify?",
+            "options": [
+                "The website is completely safe and genuine",
+                "The site uses an encrypted HTTPS connection but may not be legitimate",
+                "You are on a government website",
+                "You have a secure Wi-Fi connection"
+            ],
+            "answer": "The site uses an encrypted HTTPS connection but may not be legitimate",
+            "difficulty": "Easy",
+            "description": "HTTPS encrypts data but doesn’t ensure the site’s authenticity. Verify the domain name carefully."
+        },
+        {
+            "question": "You receive a phone call where the caller claims to be from the Income Tax Department and asks for your OTP to verify a refund. What should you do?",
+            "options": [
+                "Provide the OTP immediately to speed up the refund",
+                "Refuse to provide OTP and call the official Income Tax helpline to verify the call",
+                "Give partial OTP digits",
+                "Ignore and continue the call"
+            ],
+            "answer": "Refuse to provide OTP and call the official Income Tax helpline to verify the call",
+            "difficulty": "Medium",
+            "description": "Government departments do not ask for OTPs via phone. Always verify independently."
+        },
+        {
+            "question": "Which URL would be the legitimate website for booking railway tickets through Indian Railways?",
+            "options": [
+                "irctc.co.in",
+                "irctcbooking.com",
+                "indianrailwaytickets.in",
+                "railindia.net"
+            ],
+            "answer": "irctc.co.in",
+            "difficulty": "Medium",
+            "description": "Use official domains (irctc.co.in) to avoid spoofed ticket booking sites."
+        },
+        {
+            "question": "What distinguishes spear-phishing from generic phishing attacks?",
+            "options": [
+                "Spear-phishing targets specific individuals or organizations with personalized emails",
+                "Spear-phishing sends random emails to many recipients",
+                "Spear-phishing uses SMS instead of email",
+                "Spear-phishing only targets social media"
+            ],
+            "answer": "Spear-phishing targets specific individuals or organizations with personalized emails",
+            "difficulty": "Medium",
+            "description": "Spear-phishing has tailored messages to improve deception success."
+        },
+        {
+            "question": "Which of the following might be a sign that you are visiting a phishing website?",
+            "options": [
+                "The website has poor grammar and spelling errors",
+                "The website loads very quickly",
+                "The website uses your browser’s default font",
+                "The website has a contact us page"
+            ],
+            "answer": "The website has poor grammar and spelling errors",
+            "difficulty": "Medium",
+            "description": "Phishing sites often contain language errors not typical of legitimate companies."
+        },
+        {
+            "question": "Your employee receives a suspicious email claiming to be from HR, asking to update payroll information via an unknown link. The email is grammatically correct and uses HR logos. What steps should the employee take before reacting?",
+            "options": [
+                "Click the link and update payroll info",
+                "Verify the email sender’s official domain, bypass links and use internal HR communication channels",
+                "Reply asking for manager approval",
+                "Forward the email to colleagues"
+            ],
+            "answer": "Verify the email sender’s official domain, bypass links and use internal HR communication channels",
+            "difficulty": "Medium",
+            "description": "Phishing emails can look professional; verifying domain and official channels prevents data compromise."
+        },
+        {
+            "question": "An SMS claims to be from a logistics company lost your parcel and asks you to click a link to provide contact details. How should you handle such requests?",
+            "options": [
+                "Click the link and provide your details immediately",
+                "Ignore the SMS and directly contact the logistics company through their official website or helpline",
+                "Share the SMS with family for advice",
+                "Respond with your address to check status"
+            ],
+            "answer": "Ignore the SMS and directly contact the logistics company through their official website or helpline",
+            "difficulty": "Medium",
+            "description": "Verify shipment issues on official channels rather than clicking uncertain SMS links."
+        },
+        {
+            "question": "A voice call pretends to be from your bank’s security team telling you to confirm recent transactions by entering your PIN and OTP. What is the safest response?",
+            "options": [
+                "Safely provide PIN and OTP",
+                "Hang up and call your bank’s official number to report the call",
+                "Enter the info partially",
+                "Ignore and answer honestly"
+            ],
+            "answer": "Hang up and call your bank’s official number to report the call",
+            "difficulty": "Medium",
+            "description": "Banks never request PIN/OTP via phone. Always report impersonation calls immediately."
+        },
+        {
+            "question": "A hyperlink displayed as www.bankofindia.in leads to www.bankof-india-insecure.com when hovered over. What is this technique called, and why is it dangerous?",
+            "options": [
+                "Homograph attack; exploits unicode characters to spoof domains",
+                "Link masking; disguises malicious URLs under legitimate text",
+                "Cookie stealing; used for session hijacking",
+                "Clickjacking; overlays invisible buttons"
+            ],
+            "answer": "Link masking; disguises malicious URLs under legitimate text",
+            "difficulty": "Medium",
+            "description": "Users can be tricked into clicking malicious sites if link text disguises the actual URL."
+        },
+        {
+            "question": "You notice that the bank login page uses http instead of https. You consider logging in anyway. What risks does this pose?",
+            "options": [
+                "No risks as long as the site looks legitimate",
+                "Data, including passwords, can be intercepted by attackers on the network",
+                "Server downtime is likely",
+                "Site will load more slowly"
+            ],
+            "answer": "Data, including passwords, can be intercepted by attackers on the network",
+            "difficulty": "Easy",
+            "description": "Always use HTTPS websites for secure data transmission; HTTP is not encrypted."
+        },
+        {
+            "question": "After entering credentials on a phishing website, what immediate actions should you take to minimize damage?",
+            "options": [
+                "Change account passwords immediately and notify the service provider",
+                "Delete browsing history",
+                "Ignore, since credentials are usually not stolen",
+                "Scan for viruses only"
+            ],
+            "answer": "Change account passwords immediately and notify the service provider",
+            "difficulty": "Medium",
+            "description": "Prompt action helps prevent unauthorized access and limit financial or data losses."
+        },
+        {
+            "question": "What is the primary function of email spam filters in phishing prevention?",
+            "options": [
+                "Deleting all emails",
+                "Blocking emails from unknown senders altogether",
+                "Filtering emails based on suspicious content and sender authentication",
+                "Encrypting emails"
+            ],
+            "answer": "Filtering emails based on suspicious content and sender authentication",
+            "difficulty": "Easy",
+            "description": "Spam filters help prevent phishing by blocking likely malicious emails before reaching users."
+        },
+        {
+            "question": "You receive a phishing email from a site mimicking Amazon but with the domain amazon-payments-secure.com. What domain property indicates this is fraudulent?",
+            "options": [
+                "It has 'amazon' in the domain",
+                "It uses a longer suspicious domain with additional words",
+                "It uses HTTPS",
+                "It has a padlock"
+            ],
+            "answer": "It uses a longer suspicious domain with additional words",
+            "difficulty": "Easy",
+            "description": "Phishers often use domains combining brand names plus extra terms to appear legitimate."
+        },
+        {
+            "question": "Which of the following is a best practice for avoiding phishing attacks on mobile devices?",
+            "options": [
+                "Install apps from any source",
+                "Use app stores like Google Play or Apple App Store only",
+                "Always click links from SMS",
+                "Auto-fill passwords on all apps"
+            ],
+            "answer": "Use app stores like Google Play or Apple App Store only",
+            "difficulty": "Easy",
+            "description": "Installing apps only from official stores reduces risk of malware infection."
+        },
+        {
+            "question": "What is vishing?",
+            "options": [
+                "Phishing conducted through telephone calls",
+                "Phishing through emails",
+                "Phishing via social media",
+                "Phishing on public Wi-Fi"
+            ],
+            "answer": "Phishing conducted through telephone calls",
+            "difficulty": "Medium",
+            "description": "Vishing uses phone calls to trick victims into sharing sensitive info."
+        }
+    ]
+}
